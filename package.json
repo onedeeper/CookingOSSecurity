@@ -1,0 +1,14 @@
+{
+  "name": "cookingos-security-gate",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An automatic security check for an AI coding agent: it decides whether a code change needs a security audit before the agent is allowed to finish.",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.3",
+    "vitest": "3.2.4"
+  }
+}
